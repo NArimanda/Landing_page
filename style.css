@@ -1,0 +1,16 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color:#1F2937;
+    color:aliceblue;
+    align-items:flex-start;
+    position:absolute top;
+}
+
+.navbar .headerlinks{
+    display:flex;
+    color:orange;
+    gap:20px;
+}
