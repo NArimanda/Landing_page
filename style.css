@@ -26,4 +26,21 @@ body{
     display:flex;
     background-color:#1F2937;
     color:aliceblue;
+    align-items:center;
+    justify-content: center;
+    padding:75px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.secondpart .info{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+img{
+    height: 200px;
+    width:600px;
+    margin-left:50px;
 }
