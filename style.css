@@ -16,7 +16,14 @@ body{
 
 .navbar .headerlinks{
     display:flex;
-
     gap:20px;
     align-self:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.secondpart{
+    display:flex;
+    background-color:#1F2937;
+    color:aliceblue;
 }
