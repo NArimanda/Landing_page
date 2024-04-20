@@ -1,3 +1,11 @@
+html {
+    height: 100%;
+    margin: auto;
+    width: auto;
+    overflow-x:scroll;
+    overflow-y:scroll;
+  }
+
 body{
     margin:0;
     padding:0;
@@ -58,4 +66,14 @@ img{
     color:whitesmoke;
     border-radius:5px;
     border:0px;
+}
+
+.secondsection{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.secondsection .content_holder{
+    display:flex;
+    gap:20px;
 }
