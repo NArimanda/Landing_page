@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding:0;
+}
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -5,12 +9,14 @@
     padding-right: 200px;
     background-color:#1F2937;
     color:aliceblue;
-    align-items:flex-start;
+    align-items:center;
     position:absolute top;
+    margin-left:0;
 }
 
 .navbar .headerlinks{
     display:flex;
-    color:orange;
+
     gap:20px;
+    align-self:center;
 }
