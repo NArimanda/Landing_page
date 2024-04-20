@@ -34,7 +34,8 @@ body{
     color:aliceblue;
     align-items:center;
     justify-content: space-between;
-
+    margin-top:30px;
+    margin-bottom:30px;
 
 }
 
@@ -42,16 +43,19 @@ body{
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
+    padding-right:20px;
 }
 
 img{
-    height: 200px;
-    width:600px;
+    max-height: 250px;
+    width:auto;
 
 }
 
 #button{
     width:60px;
-    background-color:blue;
+    background-color: #3882f6;
     color:whitesmoke;
+    border-radius:5px;
+    border:0px;
 }
