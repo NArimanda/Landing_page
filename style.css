@@ -93,3 +93,51 @@ img{
     align-self: flex-end;
     justify-self:flex-start;
 }
+
+.background{
+    display:flex;
+    justify-content:center;
+    align-text:center;
+    padding:50px;
+    color: aliceblue;
+}
+
+.background .box{
+    display:flex;
+    padding:20px;
+    padding-left: 70px;
+    padding-right:70px;
+    gap:100px;
+    background-color:#3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.background .box .textbox{
+    display:flex;
+    flex-direction:column;
+}
+
+.textbox > h1{
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight:900;
+}
+.textbox > p{
+    margin-top:0px;
+    font-size:24px;
+}
+#buxton{
+    height:auto;
+    color:aliceblue;
+    background:transparent;
+    border-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: none;
+    padding-right: 40px;
+    border-width: 5px;
+    padding-left:40px;
+    font-size: 36px;
+    font-weight:900;
+}
