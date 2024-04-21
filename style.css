@@ -77,3 +77,19 @@ img{
     display:flex;
     gap:20px;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding:80px;
+    font-family: #1F2937;
+    display:flex;
+    flex-direction:column;
+    padding-left:200px;
+    padding-right:200px;
+
+}
+
+.quote .keeps{
+    align-self: flex-end;
+    justify-self:flex-start;
+}
