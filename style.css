@@ -141,3 +141,13 @@ img{
     font-size: 36px;
     font-weight:900;
 }
+.copyright{
+    display:flex;
+    background-color:#1F2937;
+    padding:30px;
+    color:antiquewhite;
+    justify-content: center;
+}
+.copyright > h1{
+    font-size:20px;
+}
